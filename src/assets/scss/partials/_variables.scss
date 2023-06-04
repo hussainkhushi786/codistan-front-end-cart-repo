@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+//Colors SCSS
+:root {
+  --color-primary: #30E9C5;
+  --color-secondary: #1e293b;
+  --color-tertiary: #94a3b8;
+}
+
+$primary: var(--color-primary);
+$secondary: var(--color-secondary);
+$tertiary: var(--color-tertiary);
+// Default
+$black: $secondary;
+$white: #fff;
+$light: #cbd5e1;
+$neutral800: #1e293b;
+$neutral500: #64748b;
+$neutral400: #94a3b8;
+$neutral300: #cbd5e1;
+$neutral200: #e2e8f0;
+$Success700: #0a6f4d;
+$Success500: #10b981;
+$Success300: #70d5b3;
+$Success100: #cff1e6;
+$Warning400: #fbbf24;
+$error400: #f87171;
+$moon-yellow: #fbbf24;
+$deep-lilac: #9b59b6;
+$shamrock: #30cb83;
+$Cornflower-blue: #54a0ff;
+$waikawagrey: #64748b;
+$midnight: #1e293b;
+$linkwater: #cbd5e1;
+$rockblue: #94a3b8;
+$aliceblue: #f1f5f9;
+// Font Famlily & Sizes
+$archivo: "Playfair Display", serif;
+$sans: "GeneralSans", serif;
+
+$primary-family: $archivo;
+$secondary-family: $sans;
+
+@function toRem($value) {
+  $remValue: ($value / 16) + rem;
+  @return $remValue;
+}
+
+$primary-fs: 16px;
+$secondary-fs: 14px;
+$tertiary-fs: 12px;
+
+$h1-font-size: toRem(32);
+$h2-font-size: toRem(24);
+$h3-font-size: toRem(18);
+$h4-font-size: 16px;
+$h5-font-size: 14px;
+$h6-font-size: 12px;
+
+// line height
+$line-16: 16px;
+$line-18: 18px;
+$line-24: 24px;
+$line-28: 28px;
+$line-36: 36px;
+$line-32: 32px;
+$line-34: 34px;
+$line-36: 36px;
+$line-48: 48px;
+
+// Media Quries
+$breakpoint-xl: "only screen and (min-width: 1200px) and (max-width:1440px)";
+$breakpoint-lg: "only screen and (min-width:992px) and (max-width:1199px)";
+$breakpoint-lg-only: "only screen and (min-width:1200px)";
+$breakpoint-lg-max: "only screen and (max-width:1199px)";
+$breakpoint-md: "only screen and (min-width:768px) and (max-width:991px)";
+$breakpoint-sm: "only screen and (min-width:576px) and (max-width:767px)";
+$breakpoint-sm-only: "only screen and (max-width:991px)";
+$breakpoint-xs: "only screen and (max-width:767px)";
+$breakpoint-xxs: "only screen and (max-width: 375px)";
+$breakpoint-xs-575: "only screen and (max-width: 575px)";
+$breakpoint-above-xs: "only screen and (min-width: 767px)";

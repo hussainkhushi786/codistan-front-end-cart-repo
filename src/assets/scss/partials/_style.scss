@@ -1,0 +1,16 @@
+// Variables
+@import "variables";
+
+.cart{
+  font-size: 12px;
+  height: 20px;
+  width: 20px;
+  transform: translate(75%,-50%)!important;
+}
+.searchbar {
+  margin-top: 40px;
+  background: rgba(255,255,255,0.3);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 5px;
+}

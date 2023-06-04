@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "title": "MODEL M9",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkom5_CkrzfzxIjGkbNaxiUGUlJI21aT5bOJk1QExz&s",
+        "description": "This is the description for Model m9.",
+        "price": 49.99
+      },
+      {
+        "id": 2,
+        "title": "MODEL G7",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqy2_eeiRcPJGfm_M6pvgA-r2PCm3cDa-baw&usqp=CAU",
+        "description": "This is the description for Model G7 .",
+        "price": 59.99
+      },
+      {
+        "id": 3,
+        "title": "MODEL Y8",
+        "image": "https://swall.teahub.io/photos/small/346-3461648_muscle-car-wallpaper-4k.jpg",
+        "description": "This is the description for Model Y8.",
+        "price": 39.99
+      },
+      {
+        "id": 4,
+        "title": "MODEL S3",
+        "image": "https://wallpaperaccess.com/full/1471832.jpg",
+        "description": "This is the description for Model S3.",
+        "price": 79.99
+      },
+      {
+        "id": 5,
+        "title": "Card MODEL T5",
+        "image": "https://www.hdcarwallpapers.com/download/2024_ford_mustang_gt_4k_8k_2-3840x2160.jpg",
+        "description": "This is the description for Model T5.",
+        "price": 29.99
+      },
+      {
+        "id": 6,
+        "title": "MODEL J5",
+        "image": "https://acnews.blob.core.windows.net/imggallery/800x600/GAZ_eba41a9a06d945878c9ecbe368c8aebd.jpg",
+        "description": "This is the description for MOdel J5.",
+        "price": 69.99
+      },
+      {
+        "id": 7,
+        "title": "MODEL I8",
+        "image": "https://c4.wallpaperflare.com/wallpaper/444/352/990/bugatti-veyron-car-wallpaper-preview.jpg",
+        "description": "This is the description for Model I8.",
+        "price": 89.99
+      },
+    {
+      "id": 8,
+      "title": "MODEL B1",
+      "image":"https://e1.pxfuel.com/desktop-wallpaper/791/723/desktop-wallpaper-bugatti-bugati-thumbnail.jpg",
+      "description": "This is the description for Model B1.",
+      "price": 189.99
+    },
+    {
+      "id": 9,
+      "title": "MODEL F2",
+      "image":"https://www.arabnews.pk/sites/default/files/styles/n_670_395/public/2020/02/22/1982806-1545158696.png?itok=xvhw19fV",
+      "description": "This is the description for Model F2.",
+      "price": 859.9
+    }
+    
+  ]
+  
